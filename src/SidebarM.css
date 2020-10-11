@@ -1,0 +1,15 @@
+.sidebarM {
+    display: flex;
+  }
+  .sidebar__l{
+      display: flex;
+      flex: 0.1;
+  }
+  .sidebar__c{
+      display: flex;
+      flex: 0.7;
+  }
+  .sidebar__r{
+      display: flex;
+      flex: 0.2;
+  }

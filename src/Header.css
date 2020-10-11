@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  padding: 4px;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+  background-color: white;
+  position: sticky;
+  z-index: 100;
+}
+
+.header__left {
+  background-color: #f0f2f5;
+  align-items: center;
+  display: flex;
+  border-radius: 40px;
+  margin-left: 10px;
+  padding-left: 10px;
+  height: 40px;
+  flex: 0.1;
+}
+
+.header > img {
+  height: 35px;
+}
+.header__left > input {
+  border: none;
+  outline-width: 0px;
+  border-radius: 20px;
+  height: 20px;
+  background: transparent;
+}
+
+.header__center {
+  display: flex;
+  flex: 0.7;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  flex: 0.2;
+}
+
+.header__rightPhoto > h3 {
+  margin: 4px;
+  font-weight: 500;
+  font-size: medium;
+}
+
+.header__centerOption > .MuiSvgIcon-root {
+  color: gray;
+  cursor: pointer;
+  height: 100%;
+  padding: 10px;
+}
+
+.header__centerOption:hover > .MuiSvgIcon-root {
+  color: #1877f2;
+  background-color: #f0f2f5;
+  border-radius: 7px;
+}
+
+.header__right > .MuiIconButton-root {
+  color: black !important;
+  background-color: #e4e6eb;
+  margin: 4px;
+}
+
+.header__rightPhoto {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.header__rightPhoto > .MuiAvatar-root {
+  height: 30px !important;
+  width: 30px;
+}
+
+.header__rightPhoto:hover {
+  background-color: #e4e6eb;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 30px;
+}
+
+.header__right > .MuiIconButton-root {
+  height: 40px;
+  width: 40px;
+}
+
+.header__right > .MuiSvgIcon-root {
+  height: 18px;
+  width: 18px;
+}
